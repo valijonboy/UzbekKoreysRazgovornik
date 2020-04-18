@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">UzbekKoreysSuzlashgich</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="grammatika">Grammatika</string>
+    <string name="aloqa">Aloqa</string>
+    <string name="baham_ko_rish">Baham ko\'rish</string>
+    <string name="baholash">Baholash</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="tilni_o_zgartirish">Tilni o\'zgartirish</string>
+    <string name="sevimli_so_zlar">Sevimli so\'zlar</string>
+    <string name="qidiruv">Qidiruv</string>
+    <string name="font_o_chamini_o_zgartirish">Font o\'chamini o\'zgartirish</string>
+    <string name="salomlashish">Salomlashish</string>
+    <string name="koreys_alfaviti">Koreys alfaviti</string>
+    <string name="koreys_topishmoqlari">Koreys topishmoqlari</string>
+    <string name="koreys_test">Koreys tili testi</string>
+    <string name="ilova_chiq_uchun">Ilovadan chiqish uchun 2 marta bosing</string>
+    <string name="malumot_nusxalandi">Ma\'lumot nusxalandi!</string>
+    <string name="savol">-savol</string>
+    <string name="javobni_tanlang">Javobni tanlang</string>
+    <string name="tugri_javoblar">To\'g\'ri javoblar</string>
+    <string name="notugri_javob">Notug\'ri javoblar</string>
+</resources>

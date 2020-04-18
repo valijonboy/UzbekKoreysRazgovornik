@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_change_language"
+        android:orderInCategory="100"
+        android:title="@string/tilni_o_zgartirish"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_favorite_words"
+        android:title="@string/sevimli_so_zlar"
+        android:orderInCategory="99"/>
+
+    <item android:id="@+id/menu_search"
+        android:title="@string/qidiruv"
+        app:showAsAction="always"
+        android:icon="@drawable/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item android:id="@+id/menu_font_size"
+        android:title="@string/font_o_chamini_o_zgartirish"
+        app:showAsAction="always"
+        android:icon="@drawable/fontsize"/>
+</menu>

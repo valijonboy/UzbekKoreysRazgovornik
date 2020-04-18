@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:id="@+id/words_adapter_liner"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_weight="7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/words_txt_uz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Uz"
+                    android:textSize="15sp"
+                    android:textColor="@color/blue"
+                    android:typeface="sans"/>
+                <TextView
+                    android:id="@+id/words_txt_pronounce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Uz"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"
+                    android:typeface="sans"
+                    android:textStyle="italic"/>
+                <TextView
+                    android:id="@+id/words_txt_kr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Uz"
+                    android:textSize="15sp"
+                    android:textColor="@color/pink"
+                    android:typeface="sans"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="3"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/words_img_sound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_volume_up_black_24dp"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:id="@+id/words_img_favourite"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/favourite_off"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:id="@+id/words_img_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_share_black_24dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
